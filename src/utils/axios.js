@@ -4,7 +4,7 @@ import jwt_decode from "jwt-decode";
 import { useAuthStore } from "../store/auth";
 
 const apiInstante = axios.create({
-  baseURL: "http://127.0.0.1:8000/api/v1",
+  baseURL: "https://ecommerce-django-backend-w2mh.onrender.com/api/v1",
   timeout: 30000,
   headers: {
     "Content-Type": "application/json",
@@ -28,7 +28,7 @@ const refreshToken = async () => {
   if (!refresh_token) return null;
 
   try {
-    const response = await axios.post("http://127.0.0.1:8000/api/v1/user/token/refresh", {
+    const response = await axios.post("https://ecommerce-django-backend-w2mh.onrender.com/api/v1/user/token/refresh", {
       refresh: refresh_token,
     });
     return response.data;
