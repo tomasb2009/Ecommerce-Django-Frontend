@@ -1,8 +1,7 @@
-import Sidebar from "../customer/Sidebar";
 import { useState, useEffect } from "react";
 import apiInstante from "../../utils/axios";
 import UserData from "../plugins/UserData";
-import SideBar from "./Sidebar";
+import SideBar from "./sidebar";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 

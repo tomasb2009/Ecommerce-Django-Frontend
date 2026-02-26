@@ -3,7 +3,7 @@ import apiInstante from "../../utils/axios";
 import UserData from "../plugins/UserData";
 import { Link, useParams } from "react-router-dom";
 import moment from "moment";
-import SideBar from "./SideBar";
+import SideBar from "./sidebar";
 function Invoice() {
   const [order, setOrder] = useState({});
   const [orderItems, setOrderItems] = useState([]);

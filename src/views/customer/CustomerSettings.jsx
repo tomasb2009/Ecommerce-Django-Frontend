@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import SideBar from "./SideBar";
+import SideBar from "./sidebar";
 import UserData from "../plugins/UserData";
 import moment from "moment";
 import apiInstante from "../../utils/axios";

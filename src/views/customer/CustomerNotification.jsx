@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import SideBar from "./SideBar";
+import SideBar from "./sidebar";
 import apiInstante from "../../utils/axios";
 import UserData from "../plugins/UserData";
 import Swal from "sweetalert2";
