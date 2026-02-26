@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import apiInstance from "../../utils/axios";
 import UserData from "../plugins/UserData";
-import SideBar from "./Sidebar";
+import SideBar from "./sidebar";
 
 function Account() {
   const [profile, setProfile] = useState({});
